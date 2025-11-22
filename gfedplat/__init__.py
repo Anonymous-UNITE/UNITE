@@ -19,7 +19,7 @@ from gfedplat.model.ResNet import ResNet18, ResNet50
 
 
 import gfedplat.algorithm
-from gfedplat.algorithm.UNITE.UNITE import UNITE
+from gfedplat.algorithm.UNITE import UNITE
 
 from gfedplat.dataloaders.separate_data import separate_data, create_data_pool
 from gfedplat.dataloaders.DataLoader_cifar10_dir import DataLoader_cifar10_dir
